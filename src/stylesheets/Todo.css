@@ -1,0 +1,34 @@
+.todo {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+
+.todo label {
+  word-break:break-all;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo label input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.todo label button {
+  border-radius: 3px;
+  border: 1px solid gray;
+  background-color: rgb(115, 115, 115);
+  color: white;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+  background-color: rgb(47, 120, 255);
+}
